@@ -1,0 +1,41 @@
+<ActionBar class="blue-core" title="WARPAN" borderRadius="0 0 25% 25%">
+    <ActionItem (tap)="onDelete()">
+        <Label width="40" text="&#xf075;" class="fa text-w t-big"></Label>
+    </ActionItem>
+    <ActionItem (tap)="onDelete()">
+        <Label width="40" text="&#xf0e0;" class="fa text-w t-big"></Label>
+    </ActionItem>
+    <ActionItem (tap)="onDelete()">
+        <Label width="40" text="&#xf0f3;" class="fa text-w t-big"></Label>
+    </ActionItem>
+
+    <Label class="action-bar-title" text="WARPAN"></Label>
+</ActionBar>
+<GridLayout rows="auto,*">
+    <GridLayout row="0" margin="15 15 0 15" class="middle center white-h" borderRadius="10" stretch="aspectFit" height="150"
+        androidElevation="3">
+
+    </GridLayout>
+    <GridLayout row="1" rows="*,*" columns="*,*" class="white-h" margin="15" borderRadius="10" androidElevation="3">
+        <StackLayout row="0" col="0" class="white-h middle center text-c" width="140"
+            borderRadius="10" height="160" androidElevation="3">
+            <Label class="fa t-icon" text="&#xf1b3;"></Label>
+            <Label class="t-mini" marginTop="20" text="Manajemen Barang"></Label>
+        </StackLayout>
+        <StackLayout row="0" col="1" class="white-h middle center text-c" width="140"
+            borderRadius="10" height="160" androidElevation="3">
+            <Label class="fa t-icon" text="&#xf007;"></Label>
+            <Label class="t-mini" marginTop="20" text="Manajemen Anggota"></Label>
+        </StackLayout>
+        <StackLayout row="1" col="1" class="white-h middle center text-c" width="140"
+            borderRadius="10" height="160" androidElevation="3">
+            <Label class="fa t-icon" text="&#xf15c;"></Label>
+            <Label class="t-mini" marginTop="20" text="Laporan"></Label>
+        </StackLayout>
+        <StackLayout row="1" col="0" class="white-h middle center text-c" width="140"
+            borderRadius="10" height="160" androidElevation="3">
+            <Label class="fa t-icon" text="&#xf017;"></Label>
+            <Label class="t-mini" marginTop="20" text="Manajemen Jadwal"></Label>
+        </StackLayout>
+    </GridLayout>
+</GridLayout>
